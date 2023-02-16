@@ -22,5 +22,5 @@ function ram() {
 }
 ram(); // undefined
 
-let bf = ram.bind(o);
+let bf = ram.bind(o); // ram object
 bf();
